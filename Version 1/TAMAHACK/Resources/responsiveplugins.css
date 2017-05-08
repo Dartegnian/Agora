@@ -1,0 +1,40 @@
+@media only screen and (max-width: 579px) and (min-width: 400px) {
+    #infospace {
+        width: 34%;
+    }
+    .firsttwo {
+        margin-bottom: 30px;
+    }
+    header img {
+        width: 200px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 399px) {
+    #infospace {
+        width: 33%;
+    }
+    .firsttwo {
+        margin-bottom: 10px;
+    }
+    header img {
+        width: 150px;
+    }
+    h1 {
+        font-size: 19px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 8px;
+    }
+}
