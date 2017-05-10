@@ -17,9 +17,9 @@
 			});
 		});
 		function Redirect() {
-               window.location="http://localhost/TAMAHACK/registration.php";
+               window.location="registration.php";
                //window.location="https://google.com";
-               //window.location.replace("http://localhost/TAMAHACK/registration.php");
+               //window.location.replace("registration.php");
 
         }
 	</script>
