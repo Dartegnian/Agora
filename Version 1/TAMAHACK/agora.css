@@ -298,7 +298,7 @@ padding: 8px 5px;
 text-align: center;
 top: 40%;
 left: 40%;
-    border-left:1px solid black;
+border-left:1px solid black;
 }
 
 #backtosort {
@@ -332,9 +332,7 @@ left: 8%;
 background: #ffffff;
 width: 29%;
 height: 6%;
-
 position: absolute;
-
 top: 26%;
 left: 68%;
 }
