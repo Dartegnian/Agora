@@ -4,24 +4,22 @@
 </head>
 <body>
 <h1>Signing In</h1>
-<?php
-//echo "<p>Order processed at ".date('H:i, jS F Y')."</p>";
+	<?php
+		$username = $_POST['username'];
+		$password = $_POST['password'];
 
-// create short variable names
-$username = $_POST['username'];
-$password = $_POST['password'];
-
-if(strpos($username, "gov.ph")){
-	
-		echo "Welcome ".substr($username,0,-7).", you have logged in as a Government Official.\n";
-			?><a href="Govt_User.php?username=<?php echo substr($username,0,-7) ?>"><br/><br/>Continue</a><?php
-	}
-else {
-	
-		echo "Welcome ".$username.", you have logged in as a normal user.<br/><br/>";
-			?><a href="Normal_User.php?username=<?php echo $username ?>">Continue</a><?php
-	} 
-?>
+		if(strpos($username, "gov.ph")){
+			echo "Welcome ".substr($username,0,-7).", you have logged in as a Government Official.\n";
+	?>
+	<a href="Govt_User.php?username=<?php echo substr($username,0,-7) ?>"><br/><br/>Continue</a>
+	<?php
+		}
+		else {	
+			echo "Welcome ".$username.", you have logged in as a normal user.<br/><br/>";
+	?>
+	<a href="Normal_User.php?username=<?php echo $username ?>">Continue</a>
+	<?php
+		}
+	?>
 </body>
-
 </html>
