@@ -16,9 +16,6 @@
 		});
 		function Redirect() {
                window.location="registration.php";
-               //window.location="https://google.com";
-               //window.location.replace("registration.php");
-
         }
 	</script>
 	<link rel="stylesheet" type="text/css" href="Resources/textrotator.css" />
