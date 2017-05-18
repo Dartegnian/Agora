@@ -4,9 +4,10 @@
 	  <link rel="stylesheet" type="text/css" href="agora.css">
 </head>
 <body>
-		<?php 
+	<?php 
 		$username = $_GET['username'];
-		echo "Hello ".$username."!!!";?>
+		echo "Hello ".$username."!!!";
+	?>
 	<form action="Display_Proposals.php?username=<?php echo $username ?>" method="post">
 	<div id="heading"><h1>Agora</h1></div>
 	<div id="sub-heading"><h3>Project Proposals</h3></div>

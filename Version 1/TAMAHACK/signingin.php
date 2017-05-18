@@ -16,9 +16,6 @@
 		});
 		function Redirect() {
                window.location="registration.php";
-               //window.location="https://google.com";
-               //window.location.replace("registration.php");
-
         }
 	</script>
 	<link rel="stylesheet" type="text/css" href="Resources/textrotator.css" />
@@ -34,21 +31,20 @@
 		<div id="infocontainer">
 			<h1>Signing In</h1>
 				<?php
-				//echo "<p>Order processed at ".date('H:i, jS F Y')."</p>";
+					$username = $_POST['username'];
+					$password = $_POST['password'];
 
-				// create short variable names
-				$username = $_POST['username'];
-				$password = $_POST['password'];
-
-				if(strpos($username, "gov.ph")){
-					
+					if(strpos($username, "gov.ph")){
 						echo "Welcome ".substr($username,0,-7).", you have logged in as a Government Official.\n";
-							?><a href="govtuser.php?username=<?php echo $username ?>"><br/><br/>Continue</a><?php
+				?>
+				<a href="govtuser.php?username=<?php echo $username ?>"><br/><br/>Continue</a>
+				<?php
 					}
-				else {
-					
+					else {
 						echo "Welcome ".$username.", you have logged in as a normal user.<br/><br/>";
-							?><a href="Normal_User.php?username=<?php echo $username ?>">Continue</a><?php
+				?>
+				<a href="Normal_User.php?username=<?php echo $username ?>">Continue</a>
+				<?php
 					} 
 				?>
 		</div>
