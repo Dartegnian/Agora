@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<h1>Normal User</h1>
-	<a href="Agora_SignIn.html">Logout</a>		
+		<a href="Agora_SignIn.html">Logout</a>		
 		<br/><br/><br/>
 		<?php 
 			$username = $_GET['username'];
