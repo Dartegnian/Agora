@@ -1,4 +1,5 @@
 /* scrollbar and Chrome shit */
+
 ::selection {
     background: transparent;
     color: #fabf00;
@@ -24,7 +25,8 @@ button {
     font-family: "Helvetica Light";
     src: url(Fonts/HelveticaLight.otf);
 }
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
     outline: none;
 }
 .rotating.flip.cube {
@@ -49,7 +51,8 @@ body {
     background-color: white;
     margin: 0;
 }
-h1,p.rotate.text-slide-title.primary-typo.strong {
+h1,
+p.rotate.text-slide-title.primary-typo.strong {
     font-size: 40px;
     letter-spacing: 1px;
     font-family: Helvetica Light;
@@ -202,7 +205,7 @@ div#fullwidth {
     letter-spacing: 0.8px;
     transition: width 1s;
     -webkit-transition: width 1s;
-	font-family: Segoe UI Light, sans-serif;
+    font-family: Segoe UI Light, sans-serif;
 }
 h1.slogan {
     top: 50%;
@@ -235,7 +238,7 @@ button.contactbutt {
     padding: 15px;
     font: 24px "Arial";
     font-weight: 300;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     float: left;
     border-radius: 3px;
 }
@@ -291,7 +294,7 @@ footer {
     padding: 20px 40px 20px 40px;
 }
 .demarticles {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .mainbody h1 {
     padding: 0px 0px 0px 40px;
@@ -309,7 +312,7 @@ footer a {
 .footcontain h4 {
     color: white;
     margin: 0px;
-	font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 .footcontain {
     width: 20%;
@@ -329,7 +332,7 @@ footer a {
     color: white;
     text-decoration: none;
     font-size: 12px;
-	font-family: Segoe UI Semilight, sans-serif;
+    font-family: Segoe UI Semilight, sans-serif;
 }
 #apcfooter {
     background: url(Images/APC.jpg);
@@ -357,7 +360,6 @@ button.userbutt:hover {
     background: #f1c40f;
     transition: all .50s ease-in-out;
 }
-
 header#mproj1 {
     background-image: url(Images/mproj1.jpg);
 }
@@ -376,7 +378,6 @@ header#mproj5 {
 header#mproj6 {
     background-image: url(Images/mproj6.jpg);
 }
-
 div#maproj1 {
     background-image: url(Images/maproj1.jpg);
 }
