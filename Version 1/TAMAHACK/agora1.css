@@ -1,254 +1,228 @@
 p {
-text-align: center;
-padding: 0px 15px;
+    text-align: center;
+    padding: 0px 15px;
 }
-
 h1 {
-margin-top: 10px;
-text-align: center;
-font-family: Arial, sans-serif;
-font-size: 28pt;
-color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 28pt;
+    color: white;
 }
-
 h3 {
-margin-top: 0px;
-text-align: center;
-font-family: Arial, sans-serif;
-font-size: 18pt;
-color: blue;
+    margin-top: 0px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18pt;
+    color: blue;
 }
-
 h4 {
-margin-top: 10px;
-text-align: left;
-font-family: Arial, sans-serif;
-font-size: 14pt;
-color: black;
+    margin-top: 10px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    color: black;
 }
-
 h5 {
-margin-top: 10px;
-text-align: center;
-font-family: Arial, sans-serif;
-font-size: 10pt;
-color: black;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: black;
 }
-
 p.productdetail {
-padding: 0 3px;
-margin-top: 10px;
-text-align: left;
-font-family: Arial, sans-serif;
-font-size: 10pt;
-font-weight: normal;
-color: blue;
+    padding: 0 3px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+    color: blue;
 }
-
 h6 {
-margin-top: 10px;
-text-align: right;
-font-family: Arial, sans-serif;
-font-size: 10pt;
-color: black;
+    margin-top: 10px;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: black;
 }
-
 #heading {
-background: #000000;
-width: 1300px;
-height: 58px;
-border: 0px solid black;
-position: absolute;
-top: 105px;
-left: 30px;
+    background: #000000;
+    width: 1300px;
+    height: 58px;
+    border: 0px solid black;
+    position: absolute;
+    top: 105px;
+    left: 30px;
 }
-
 #sub-heading {
-border-left: 1px solid #000000;
-border-right: 1px solid #000000;
-background: #FFFF80;
-width: 1298px;
-height: 29px;
-position: absolute;
-top: 163px;
-left: 30px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    background: #FFFF80;
+    width: 1298px;
+    height: 29px;
+    position: absolute;
+    top: 163px;
+    left: 30px;
 }
-
-
-
 #submit {
-background: #FFFF80;
-width: 22px;
-height: 6px;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-border-bottom: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-text-align: right;
-top: 50px;
-left: 15px;
+    background: #FFFF80;
+    width: 22px;
+    height: 6px;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    text-align: right;
+    top: 50px;
+    left: 15px;
 }
-
 #reset {
-background: #FFFF80;
-width: 22.1px;
-height: 6px;
-border-top: 1px solid #000000;
-border-right: 1px solid #000000;
-border-bottom: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-top: 50px;
-left: 37px;
+    background: #FFFF80;
+    width: 22.1px;
+    height: 6px;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    top: 50px;
+    left: 37px;
 }
-
 #display_area {
-position: absolute;
-top: 60px;
+    position: absolute;
+    top: 60px;
 }
-
 #messagebox {
-background: #ffffff;
-width: 44.82px;
-height: 20px;
-border: 1px solid black;
-position: absolute;
-top: 92px;
-left: 15px;
+    background: #ffffff;
+    width: 44.82px;
+    height: 20px;
+    border: 1px solid black;
+    position: absolute;
+    top: 92px;
+    left: 15px;
 }
-
 #backtoform {
-background: #FFFF80;
-width: 22px;
-height: 6px;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-border-bottom: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-text-align: center;
-top: 40px;
-left: 15px;
+    background: #FFFF80;
+    width: 22px;
+    height: 6px;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    text-align: center;
+    top: 40px;
+    left: 15px;
 }
-
 #displaycatalog {
-background: #FFFF80;
-width: 22.1px;
-height: 6px;
-border-top: 1px solid #000000;
-border-right: 1px solid #000000;
-border-bottom: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-text-align: center;
-top: 40px;
-left: 37px;
+    background: #FFFF80;
+    width: 22.1px;
+    height: 6px;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    text-align: center;
+    top: 40px;
+    left: 37px;
 }
-
 #backtosort {
-background: #FFFF80;
-width: 1288px;
-height: 28px;
-border-top: 1px solid #000000;
-border-right: 1px solid #000000;
-border-left: 1px solid #000000;
-border-bottom: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-text-align: center;
-top: 40px;
-left: 30px;
+    background: #FFFF80;
+    width: 1288px;
+    height: 28px;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    text-align: center;
+    top: 40px;
+    left: 30px;
 }
-
 #howsort_label {
-padding: 0;
-margin: 0;
-background: #ffffff;
-width: 55px;
-height: 6px;
-position: absolute;
-top: 26px;
-left: 8px;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    width: 55px;
+    height: 6px;
+    position: absolute;
+    top: 26px;
+    left: 8px;
 }
-
-#howsort_label h6 { margin-top: 0px; }
-
+#howsort_label h6 {
+    margin-top: 0px;
+}
 #howsort_select {
-background: #ffffff;
-width: 29px;
-height: 6px;
-
-position: absolute;
-
-top: 26px;
-left: 68px;
+    background: #ffffff;
+    width: 29px;
+    height: 6px;
+    position: absolute;
+    top: 26px;
+    left: 68px;
 }
-
 #projtitle {
-background: #cccccc;
-width: 205px;
-height: 28px;
-border-top: 1px solid #000000;
-border-bottom: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 192px;
-left: 30px;
+    background: #cccccc;
+    width: 205px;
+    height: 28px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 192px;
+    left: 30px;
 }
-
 #projagent {
-background: #cccccc;
-width: 205px;
-height: 28px;
-border-top: 1px solid #000000;
-border-bottom: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 192px;
-left: 235px;
+    background: #cccccc;
+    width: 205px;
+    height: 28px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 192px;
+    left: 235px;
 }
-
 #projloc {
-background: #cccccc;
-width: 205px;
-height: 28px;
-border-top: 1px solid #000000;
-border-bottom: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 192px;
-left: 440px;
+    background: #cccccc;
+    width: 205px;
+    height: 28px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 192px;
+    left: 440px;
 }
-
 #projoverview {
-background: #cccccc;
-width: 500px;
-height: 28px;
-border-top: 1px solid #000000;
-border-bottom: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 192px;
-left: 645px;
+    background: #cccccc;
+    width: 500px;
+    height: 28px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 192px;
+    left: 645px;
 }
-
 #projduration {
-background: #cccccc;
-width: 100px;
-height: 28px;
-border: 1px solid #000000;
-position: absolute;
-top: 192px;
-left: 1145px;
+    background: #cccccc;
+    width: 100px;
+    height: 28px;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 192px;
+    left: 1145px;
 }
-
 #projdept {
-background: #cccccc;
-width: 85px;
-height: 28px;
-border: 1px solid #000000;
-position: absolute;
-top: 192px;
-left: 1243px;
+    background: #cccccc;
+    width: 85px;
+    height: 28px;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 192px;
+    left: 1243px;
 }
