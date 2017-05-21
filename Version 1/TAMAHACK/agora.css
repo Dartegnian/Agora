@@ -1,396 +1,359 @@
 p {
-text-align: center;
-padding: 0px 15px;
+    text-align: center;
+    padding: 0px 15px;
 }
 h1 {
-margin-top: 10px;
-text-align: center;
-font-family: Arial, sans-serif;
-font-size: 28pt;
-color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 28pt;
+    color: white;
 }
-
 h3 {
-margin-top: 0px;
-text-align: center;
-font-family: Arial, sans-serif;
-font-size: 18pt;
-color: yellow;
+    margin-top: 0px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18pt;
+    color: yellow;
 }
-
 h4 {
-margin-top: 10px;
-text-align: center;
-font-family: Arial, sans-serif;
-font-size: 14pt;
-color: black;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    color: black;
 }
-
 h5 {
-margin-top: 10px;
-text-align: center;
-font-family: Arial, sans-serif;
-font-size: 10pt;
-color: black;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: black;
 }
-
 p.productdetail {
-padding: 0 3px;
-margin-top: 10px;
-text-align: center;
-font-family: Arial, sans-serif;
-font-size: 10pt;
-font-weight: normal;
-color: blue;
+    padding: 0 3px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+    color: blue;
 }
-
 h6 {
-margin-top: 10px;
-text-align: right;
-font-family: Arial, sans-serif;
-font-size: 10pt;
-color: black;
+    margin-top: 10px;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: black;
 }
-
 #heading {
-background: #000000;
-width: 80%;
-height: 10%;
-border: 0px solid black;
-position: absolute;
-top: 5%;
-left: 15%;
+    background: #000000;
+    width: 80%;
+    height: 10%;
+    border: 0px solid black;
+    position: absolute;
+    top: 5%;
+    left: 15%;
 }
-
 #sub-heading {
-border-left: 1px solid #000000;
-border-right: none;
-background: url(subhead_bg.png);
-width: 80%;
-height: 5%;
-position: absolute;
-top: 15%;
-left: 15%;
+    border-left: 1px solid #000000;
+    border-right: none;
+    background: url(subhead_bg.png);
+    width: 80%;
+    height: 5%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
 }
-
-#compName_label
-{
-background: #cccccc;
-width: 15%;
-height: 6%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 20%;
-left: 15%;
+#compName_label {
+    background: #cccccc;
+    width: 15%;
+    height: 6%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 20%;
+    left: 15%;
 }
-
-#compName_value
-{
-background: #ffffff;
-width: 34%;
-height: 4%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-border-right: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-top: 20%;
-left: 30%;
+#compName_value {
+    background: #ffffff;
+    width: 34%;
+    height: 4%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    top: 20%;
+    left: 30%;
 }
-
 #contactPerson_label {
-background: #cccccc;
-width: 15%;
-height: 6%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 26%;
-left: 15%;
+    background: #cccccc;
+    width: 15%;
+    height: 6%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 26%;
+    left: 15%;
 }
-
 #contactPerson_value {
-background: #ffffff;
-width: 34%;
-height: 4%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-border-right: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-top: 26%;
-left: 30%;
+    background: #ffffff;
+    width: 34%;
+    height: 4%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    top: 26%;
+    left: 30%;
 }
-
 #contactNumber_label {
-background: #cccccc;
-width: 15%;
-height: 6%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 32%;
-left: 15%;
+    background: #cccccc;
+    width: 15%;
+    height: 6%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 32%;
+    left: 15%;
 }
-
 #contactNumber_value {
-background: #ffffff;
-width: 34%;
-height: 3.5%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-border-right: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-top: 32%;
-left: 30%;
+    background: #ffffff;
+    width: 34%;
+    height: 3.5%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    top: 32%;
+    left: 30%;
 }
-
 #prodprice_label {
-background: #cccccc;
-width: 15%;
-height: 6%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 38%;
-left: 15%;
+    background: #cccccc;
+    width: 15%;
+    height: 6%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 38%;
+    left: 15%;
 }
-
-
 #prodprice_value {
-background: #ffffff;
-width: 29%;
-height: 3.5%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-border-right: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-top: 38%;
-left: 30%;
+    background: #ffffff;
+    width: 29%;
+    height: 3.5%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    top: 38%;
+    left: 30%;
 }
-
 #prodqty_label {
-background: #cccccc;
-width: 15%;
-height: 6%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 44%;
-left: 15%;
+    background: #cccccc;
+    width: 15%;
+    height: 6%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 44%;
+    left: 15%;
 }
-
-
 #prodqty_value {
-background: #ffffff;
-width: 29%;
-height: 3.5%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-border-right: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-top: 44%;
-left: 30%;
+    background: #ffffff;
+    width: 29%;
+    height: 3.5%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    top: 44%;
+    left: 30%;
 }
-
 #submit {
-background: #FFFF80;
-width: 24.5%;
-height: 6%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-border-bottom: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-text-align: right;
-top: 37%;
-left: 15%;
+    background: #FFFF80;
+    width: 24.5%;
+    height: 6%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    text-align: right;
+    top: 37%;
+    left: 15%;
 }
-
 #reset {
-background: #FFFF80;
-width: 24.6%;
-height: 6%;
-border-top: 1px solid #000000;
-border-right: 1px solid #000000;
-border-bottom: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-top: 37%;
-left: 39.5%;
+    background: #FFFF80;
+    width: 24.6%;
+    height: 6%;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    top: 37%;
+    left: 39.5%;
 }
-
 #submit2 {
-width: 22%;
-height: 6%;
-position: absolute;
-padding: 8px 5px;
-text-align: right;
-top: 52%;
-left: 25%;
+    width: 22%;
+    height: 6%;
+    position: absolute;
+    padding: 8px 5px;
+    text-align: right;
+    top: 52%;
+    left: 25%;
 }
-
 #reset2 {
-width: 22.1%;
-height: 6%;
-position: absolute;
-padding: 8px 5px;
-top: 52%;
-left: 47%;
+    width: 22.1%;
+    height: 6%;
+    position: absolute;
+    padding: 8px 5px;
+    top: 52%;
+    left: 47%;
 }
-
 #display_area {
-position: absolute;
-top: 60%;
+    position: absolute;
+    top: 60%;
 }
-
 #messagebox {
-background: #ffffff;
-width: 50%;
-height: 20%;
-border: 1px solid black;
-position: absolute;
-top: 20%;
-left: 15%;
+    background: #ffffff;
+    width: 50%;
+    height: 20%;
+    border: 1px solid black;
+    position: absolute;
+    top: 20%;
+    left: 15%;
 }
-
 #backtoform {
-background: #FFFF80;
-width: 25%;
-height: 6%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-border-bottom: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-text-align: center;
-top: 40%;
-left: 15%;
+    background: #FFFF80;
+    width: 25%;
+    height: 6%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    text-align: center;
+    top: 40%;
+    left: 15%;
 }
-
 #backtoform_ctr {
-background: #FFFF80;
-width: 44%;
-height: 6%;
-border-top: 1px solid #000000;
-border-left: 1px solid #000000;
-border-bottom: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-text-align: center;
-top: 40%;
-left: 15%;
+    background: #FFFF80;
+    width: 44%;
+    height: 6%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    text-align: center;
+    top: 40%;
+    left: 15%;
 }
-
 #displaycatalog {
-background: #FFFF80;
-width: 24.3%;
-height: 6%;
-border-top: 1px solid #000000;
-border-right: 1px solid #000000;
-border-bottom: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-text-align: center;
-top: 40%;
-left: 40%;
-border-left:1px solid black;
+    background: #FFFF80;
+    width: 24.3%;
+    height: 6%;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+    border-left: 1px solid black;
 }
-
 #backtosort {
-background: #FFFF80;
-width: 24.3%;
-height: 6%;
-border-top: 1px solid #000000;
-border-right: 1px solid #000000;
-border-bottom: 1px solid #000000;
-position: absolute;
-padding: 8px 5px;
-text-align: center;
-top: 40%;
-left: 40%;
+    background: #FFFF80;
+    width: 24.3%;
+    height: 6%;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    padding: 8px 5px;
+    text-align: center;
+    top: 40%;
+    left: 40%;
 }
-
 #howsort_label {
-padding: 0;
-margin: 0;
-background: #ffffff;
-width: 55%;
-height: 6%;
-position: absolute;
-top: 26%;
-left: 8%;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    width: 55%;
+    height: 6%;
+    position: absolute;
+    top: 26%;
+    left: 8%;
 }
-
-#howsort_label h6 { margin-top: 0px; }
-
+#howsort_label h6 {
+    margin-top: 0px;
+}
 #howsort_select {
-background: #ffffff;
-width: 29%;
-height: 6%;
-position: absolute;
-top: 26%;
-left: 68%;
+    background: #ffffff;
+    width: 29%;
+    height: 6%;
+    position: absolute;
+    top: 26%;
+    left: 68%;
 }
-
 #codetitle {
-background: #cccccc;
-width: 22%;
-height: 5%;
-border-top: 1px solid #000000;
-border-bottom: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 20%;
-left: 15%;
+    background: #cccccc;
+    width: 22%;
+    height: 5%;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 20%;
+    left: 15%;
 }
-
 #nametitle {
-background: #cccccc;
-width:18%;
-height: 5%;
-border-top: 1px solid #000000;
-border-bottom: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 20%;
-left: 37%;
+    background: #cccccc;
+    width: 18%;
+    height: 5%;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 20%;
+    left: 37%;
 }
-
 #desctitle {
-background: #cccccc;
-width: 10%;
-height: 5%;
-border-top: 1px solid #000000;
-border-bottom: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 20%;
-left: 55%;
+    background: #cccccc;
+    width: 10%;
+    height: 5%;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 20%;
+    left: 55%;
 }
-
 #pricetitle {
-background: #cccccc;
-width: 10%;
-height: 5%;
-border-top: 1px solid #000000;
-border-bottom: 1px solid #000000;
-border-left: 1px solid #000000;
-position: absolute;
-top: 20%;
-left: 44%;
+    background: #cccccc;
+    width: 10%;
+    height: 5%;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    top: 20%;
+    left: 44%;
 }
-
 #qtytitle {
-background: #cccccc;
-width: 5.8%;
-height: 5%;
-border: 1px solid #000000;
-position: absolute;
-top: 20%;
-left: 54%;
+    background: #cccccc;
+    width: 5.8%;
+    height: 5%;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 20%;
+    left: 54%;
 }
