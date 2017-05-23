@@ -3,18 +3,14 @@
 		<title>Agora</title>
 		<link rel="stylesheet" type="txt/css" href="style/style.css"/>
 	</head>
-
 	<body>
 		<h1>Project Proposal</h1><br/><br/>
-
 		<?php 
-		$username = $_GET['username'];
-		echo "Hello ".$username."!!!"?>
-		
+			$username = $_GET['username'];
+			echo "Hello ".$username."!"
+		?>
 		<br/><br/>
-		<h3>Fields with * are required</h3>
-		
-			
+		<h3>Fields with * are required</h3>	
 		<form action="Save_Proposal.php" method="post">
 		<input type="hidden" name="username" value="<?php echo $username;?>">
 		<table border="0">
@@ -47,7 +43,6 @@
 		<td colspan="2" align="center"><input type="submit" value="Submit Proposal" /></td>
 		</tr>
 		</table>
-		
 		</form>		
 	<body>
 </html>
