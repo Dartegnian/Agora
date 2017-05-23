@@ -3,7 +3,6 @@
 		<title>Agora</title>
 		<link rel="stylesheet" type="txt/css" href="style/style.css"/>
 	</head>
-
 	<body>
 		<?php
 			$username = $_GET['username'];
