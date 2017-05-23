@@ -25,7 +25,6 @@ function drawChart() {
         if (selectedItem) {
             var toppings = data.getValue(selectedItem.row, 1);
             toppings++;
-
         }
         data.setValue(selectedItem.row, 1, toppings);
         chart.draw(data, options);
