@@ -7,7 +7,6 @@
 	<?php
 		$username = $_POST['username'];
 		$password = $_POST['password'];
-
 		if(strpos($username, "gov.ph")){
 			echo "Welcome ".substr($username,0,-7).", you have logged in as a Government Official.\n";
 	?>

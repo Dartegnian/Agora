@@ -6,7 +6,7 @@
 
 	<body>
 		<h1>Project Proposal</h1><br/><br/>
-		
+
 		<?php 
 		$username = $_GET['username'];
 		echo "Hello ".$username."!!!"?>

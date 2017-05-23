@@ -3,12 +3,8 @@
 		<title>Agora</title>
 		<link rel="stylesheet" type="txt/css" href="style/style.css"/>
 	</head>
-
 	<body>
 		<?php
-			//echo "<p>Order processed at ".date('H:i, jS F Y')."</p>";
-
-			// create short variable names
 			$username = $_POST['username'];
 			$password = $_POST['password'];
 			$cpassword = $_POST['cpassword'];
@@ -22,22 +18,29 @@
 				$fp = fopen("$DOCUMENT_ROOT/Agora/Gov_Accounts.txt", "at");
 						if($password == $cpassword){
 							fwrite($fp, $outputstring);
-							?><a href="Agora_SignIn.html">Registration Successful</a><?php
+		?>
+		<a href="Agora_SignIn.html">Registration Successful</a>
+		<?php
 						}
 						else{
-							?><a href="registration.php">Your password does not match.</a><?php
+		?>
+		<a href="registration.php">Your password does not match.</a>
+		<?php
 						}
 				}
 			else {
 				$fp = fopen("$DOCUMENT_ROOT/Agora/User_Accounts.txt", "at");
 						if($password == $cpassword){
 							fwrite($fp, $outputstring);
-							?><a href="Agora_SignIn.html">Registration Successful</a><?php
+		?><a href="Agora_SignIn.html">Registration Successful</a>
+		<?php
 						}
 						else{
-							?><a href="registration.php">Your password does not match.</a><?php
+		?>
+		<a href="registration.php">Your password does not match.</a>
+		<?php
 						}
 				} 
-			?>
+		?>
 	<body>	
 </html>

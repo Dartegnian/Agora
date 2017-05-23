@@ -16,9 +16,6 @@
 		});
 		function Redirect() {
                window.location="http://localhost/TAMAHACK/registration.php";
-               //window.location="https://google.com";
-               //window.location.replace("http://localhost/TAMAHACK/registration.php");
-
         }
 	</script>
 	<link rel="stylesheet" type="text/css" href="Resources/textrotator.css" />
@@ -35,7 +32,6 @@
 			<h1>Register</h1>
 			<form action="Save_Registration.php" method="post">
 			<table border="0">
-			
 			<tr>
 			<td>Username</td>
 			<td align="left"><input type="text" name="username" size="20" maxlength="20" /></td>
