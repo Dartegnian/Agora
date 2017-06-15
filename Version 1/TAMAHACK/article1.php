@@ -18,11 +18,11 @@
                window.location="registration.php";
         }
 	</script>
-	<link rel="stylesheet" type="text/css" href="Resources/textrotator.css" />
+	<link rel="stylesheet" type="text/css" href="Resources/textrotator.css"/>
 </head>
 <body>
 	<div id="fullwidth" style="height: 50px;">
-		<h1 style="display: inline;"><a href="http://localhost/TAMAHACK"><img id="logo" src="Resources\Images\agora.png"\></a></h1>
+		<h1 style="display: inline;"><a href="http://localhost/TAMAHACK"><img id="logo" src="Resources\Images\agora.png"/></a></h1>
 	</div>
 	<header id="mproj6">
 		<h1 class="slogan"><span class="rotate">GOBYERNONG PROYEKTO, PARA SA PILIPINO, PARA SA PANGKALAHATAN, AGORA</span></h1>
@@ -32,17 +32,17 @@
 		<div id="imagecontainer">
 			<div id="image1container" class="images">
 				<a href="Resources\Images\Article1.jpg" target='_blank'>
-					<img src="Resources\Images\Article1.jpg"\>
+					<img src="Resources\Images\Article1.jpg"/>
 				</a>
 			</div>
 		</div>
 		<aside id="infospace" style="min-height: 396px;">
-			<p>The project involves the construction and operation and maintenance (O&M) of a 8 km. 4-lane elevated expressway over the Philippine National Railway (PNR) right of way. It starts from C3 Road in Caloocan through Manila crossing Espana towards PUP, Sta. Mesa connecting Metro Manila Skyway Stage 3 (MMSS3). Once completed, the NLEX-SLEX Connector road is expected to decongest traffic in Metro Manila by providing an alternative to C-5 Road, Efipanio de los Santos Avenue (EDSA), and other major thoroughfares, and cut the travel time between NLEX and SLEX to 15-20 minutes which today takes more than an hour.</p>
+			<p>The project involves the construction and operation and maintenance (O&M) of a 8 km. 4-lane elevated expressway over the Philippine National Railway (PNR) right of way. It starts from C3 Road in Caloocan through Manila crossing Espana towards PUP, Sta. Mesa connecting Metro Manila Skyway Stage 3 (MMSS3). Once completed, the NLEX-SLEX Connector road is expected to decongest traffic in Metro Manila by providing an alternative to C-5 Road, Efipanio de Los Santos Avenue (EDSA), and other major thoroughfares, and cut the travel time between NLEX and SLEX to 15-20 minutes which today takes more than an hour.</p>
 		</aside>
 	</div>
 	<footer>
 		<a href="Resources\Images\coatofarms.png" target='_blank'>
-			<img src="Resources\Images\coatofarms.png"\>
+			<img src="Resources\Images\coatofarms.png"/>
 		</a>
 		<div class="footcontain">
 			<h4>About GOV.PH</h4>
