@@ -4,7 +4,7 @@
 	<title>Agora - Tacloban Rehabilitation Project</title>
 	<link rel="stylesheet" type="text/css" href="Resources/agoraproject.css">
 	<link rel="icon" type="image/png" href="Resources/Images/logo.png">
-	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width"/>
 	<script src='Resources/jquery.min.js'></script>
 	<script src='Resources/textrotator.js'></script>
 	<script type="text/javascript" src="Resources/loader.js"></script>
@@ -34,18 +34,17 @@
         ]);
 
         var options = {
-          title: 'How People Feel About It',
-          pieHole: 0.5,
+        	title: 'How People Feel About It',
+        	pieHole: 0.5,
         };
 		var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
         chart.draw(data, options);
 		
 		function selectHandler() {
-          var selectedItem = chart.getSelection()[0];
-			  if (selectedItem) {
-				var toppings = data.getValue(selectedItem.row, 1);
-				toppings++;
-				
+        	var selectedItem = chart.getSelection()[0];
+				if (selectedItem) {
+					var toppings = data.getValue(selectedItem.row, 1);
+					toppings++;
           }
 		  data.setValue(selectedItem.row, 1, toppings);
 		  chart.draw(data, options);
@@ -55,25 +54,25 @@
       }
     </script>
     <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
+    	google.charts.load('current', {'packages':['corechart']});
+    	google.charts.setOnLoadCallback(drawChart);
 
-      function drawChart() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Names');
-        data.addColumn('number', 'Amountt');
-        data.addRows([
-          ['Materials & Supply', 500000],
-          ['Operations', 140000],
-          ['Project Management', 100000],
-          ['Labor', 250000],
-          ['Miscellaneous', 50000]
-        ]);
-        var options = {'title':'TACLOBAN Rehabilitation Proposed Budget Breakdown in Phillipine Peso (PHP)',
-                       'width':900,
-                       'height':500};
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
+    	function drawChart() {
+			var data = new google.visualization.DataTable();
+			data.addColumn('string', 'Names');
+			data.addColumn('number', 'Amountt');
+			data.addRows([
+				['Materials & Supply', 500000],
+				['Operations', 140000],
+				['Project Management', 100000],
+				['Labor', 250000],
+				['Miscellaneous', 50000]
+			]);
+			var options = {'title':'TACLOBAN Rehabilitation Proposed Budget Breakdown in Phillipine Peso (PHP)',
+						'width':900,
+						'height':500};
+			var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+			chart.draw(data, options);
       }
     </script>
 	<link rel="stylesheet" type="text/css" href="Resources/textrotator.css" />
@@ -90,7 +89,7 @@
 		<div id="imagecontainer">
 			<div id="image1container" class="images">
 				<a href="Resources\Images\CArticle1.jpg" target='_blank'>
-					<img src="Resources\Images\CArticle1.jpg"\>
+					<img src="Resources\Images\CArticle1.jpg"/>
 				</a>
 			</div>
 		</div>
@@ -116,7 +115,7 @@
 	</div>
 	<footer>
 		<a href="Resources\Images\coatofarms.png" target='_blank'>
-			<img src="Resources\Images\coatofarms.png"\>
+			<img src="Resources\Images\coatofarms.png"/>
 		</a>
 		<div class="footcontain">
 			<h4>About GOV.PH</h4>
