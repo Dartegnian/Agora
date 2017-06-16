@@ -17,8 +17,8 @@
 					$proposals_col = explode("~",$proposals[$i]);
 					for ($j=0;$j<6;$j++) {
 						$list[$i][$j] = $proposals_col[$j];
-						}
 					}
+				}
 				
 				for ($x=0;$x<$number_of_proposals;$x++) {
 					if(isset($_POST[$x])){
