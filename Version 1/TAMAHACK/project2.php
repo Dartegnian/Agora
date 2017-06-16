@@ -4,7 +4,7 @@
 	<title>Agora - House A Lot Project</title>
 	<link rel="stylesheet" type="text/css" href="Resources/agoraproject.css">
 	<link rel="icon" type="image/png" href="Resources/Images/logo.png">
-	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width"/>
 	<script src='Resources/jquery.min.js'></script>
 	<script src='Resources/textrotator.js'></script>
 	<script type="text/javascript" src="Resources/loader.js"></script>
