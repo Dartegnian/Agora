@@ -22,7 +22,7 @@
 </head>
 <body>
 	<div id="fullwidth" style="height: 50px;">
-		<h1 style="display: inline;"><a href="http://localhost/TAMAHACK"><img id="logo" src="Resources\Images\agora.png"\></a></h1>
+		<h1 style="display: inline;"><a href="http://localhost/TAMAHACK"><img id="logo" src="Resources\Images\agora.png"/></a></h1>
 	</div>
 	<header id="mproj6">
 		<h1 class="slogan"><span class="rotate">GOBYERNONG PROYEKTO, PARA SA PILIPINO, PARA SA PANGKALAHATAN, AGORA</span></h1>
@@ -32,7 +32,7 @@
 		<div id="imagecontainer">
 			<div id="image1container" class="images">
 				<a href="Resources\Images\Article3.jpg" target='_blank'>
-					<img src="Resources\Images\Article3.jpg"\>
+					<img src="Resources\Images\Article3.jpg"/>
 				</a>
 			</div>
 		</div>
@@ -42,7 +42,7 @@
 	</div>
 	<footer>
 		<a href="Resources\Images\coatofarms.png" target='_blank'>
-			<img src="Resources\Images\coatofarms.png"\>
+			<img src="Resources\Images\coatofarms.png"/>
 		</a>
 		<div class="footcontain">
 			<h4>About GOV.PH</h4>
