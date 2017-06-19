@@ -80,7 +80,7 @@
 </head>
 <body>
 	<div id="fullwidth" style="height: 50px;">
-		<h1 style="display: inline;"><a href="http://localhost/TAMAHACK"><img id="logo" src="Resources\Images\agora.png"\></a></h1>
+		<h1 style="display: inline;"><a href="http://localhost/TAMAHACK"><img id="logo" src="Resources\Images\agora.png"/></a></h1>
 	</div>
 	<header id="mproj6">
 		<h1 class="slogan"><span class="rotate">GOBYERNONG PROYEKTO, PARA SA PILIPINO, PARA SA PANGKALAHATAN, AGORA</span></h1>
@@ -90,7 +90,7 @@
 		<div id="imagecontainer">
 			<div id="image1container" class="images">
 				<a href="Resources\Images\CArticle6.jpg" target='_blank'>
-					<img src="Resources\Images\CArticle6.jpg"\>
+					<img src="Resources\Images\CArticle6.jpg"/>
 				</a>
 			</div>
 		</div>
@@ -123,7 +123,7 @@ perhaps they even added a drainage system in the area to prevent flooding given 
 	</div>
 	<footer>
 		<a href="Resources\Images\coatofarms.png" target='_blank'>
-			<img src="Resources\Images\coatofarms.png"\>
+			<img src="Resources\Images\coatofarms.png"/>
 		</a>
 		<div class="footcontain">
 			<h4>About GOV.PH</h4>
