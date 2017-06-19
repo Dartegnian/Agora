@@ -97,9 +97,8 @@
 		<aside id="infospace">
 			<p>New trains are coming with a better integrated technology embedded with IONT. A modern train proposed by Sen. Manny Pacquiao to start revolutionizing LRT.
 	This project might give our beloved country a chance to technologically advance for at least 10 years ahead compare to the other countries. These trains shall revolutionize transportation, since
-	it uses internet to somehow teleport humans from one destination to another. This Project was experimented with 10,000 FIlipinos with a perfect result and no side effects on our human body appeared, because of this
-	the government was confident to approve Sen. Manny Pacquiao's project with flying colors. The project started January 24, 2016 and is expected to finish on year 2020. President Rodrigo Duterte gave full support to Sen.Pacquiao and even 
-	recommended him to be the next president for year 2021 to take the throne and manage our beloved country, the Philippines.</p>
+	it uses internet to somehow teleport humans from one destination to another. This Project was experimented with 10,000 Filipinos with a perfect result and no side effects on our human body appeared, because of this
+	the government was confident to approve Sen. Manny Pacquiao's project with flying colors. The project started January 24, 2016 and is expected to finish on year 2020. President Rodrigo Duterte gave full support to Sen. Pacquiao and even recommended him to be the next president for year 2021 to take the throne and manage our beloved country, the Philippines.</p>
 			<br/>
 			<div id="donutchart" style="width: 500px; height: 300px;"></div>
 		</aside>
