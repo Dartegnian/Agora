@@ -94,13 +94,7 @@
 			</div>
 		</div>
 		<aside id="infospace">
-			<p>With the increase of population here in the Philippines and with only few who are capable to cope up with the society, 
-	people are running out of homes and jobs to go to.
-	As a solution to this our Vice President Leni Robredo started a home building project. A 10k Acre of land in Surigao del Sur 
-	was dedicated for all homeless Filipinos to live there and create their own society with 
-	VP. Leni Robredo as their local President. Homeless People will be given a task to build houses until the whole 10k acre of land
-	is filled up, as they build they also get to live in their own house,
-	while the other houses are sold to people in the city</p>
+			<p>With the increase of population here in the Philippines and with only few who are capable to cope up with the society, people are running out of homes and jobs to go to.	As a solution to this our Vice President Leni Robredo started a home building project. A 10k acre of land in Surigao del Sur was dedicated for all homeless Filipinos to live there and create their own society with VP. Leni Robredo as their local President. Homeless people will be given a task to build houses until the whole 10k acre of land is filled up, as they build they also get to live in their own house, while the other houses are sold to people in the city</p>
 			<br/>
 			<div id="donutchart" style="width: 500px; height: 300px;"></div>
 		</aside>
