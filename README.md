@@ -4,7 +4,10 @@
 
 We were the representatives of <a href="https://apc.edu.ph" target="_blank">Asia Pacific College</a> for the inter-collegiate Tamahack competition during FEU Tech's Technofest 2017. Our objective was to develop a project that can make the general public more interested in the Philippine government, and promote transparency within it. Thus, we decided to come up with a concept that shows the current government projects within your area and nearby areas—with a full breakdown of the costs associated with it. This project is supposed to show you the entire breakdown of the budget, some pictures of the project, the estimated development time, the congressman/woman in charge of it, the congressman/woman's contact information, and much more. Due to time constraints, and with the mishap that occurred during the event, we were not able to implement some of those proposed features. The development status of this project is currently **DELAYED** (see note below).
 
-<a href="https://dartegnian.github.io/Agora/Version%201/TAMAHACK/index.html" style="font-weight: bold;" target="_blank">LIVE DEMO</a>
+<p align="center">
+	<a href="https://dartegnian.github.io/Agora/Version%201/TAMAHACK/index.html" target='_blank'>LIVE DEMO</a>
+</p>
+
 
 ## Usage
 Again, please take note that this project is a working prototype, so understand that there **will** be bugs/incomplete features in this app. We planned to integrate Google Maps within this project but due to various problems (spotty Internet connection, time constaints, etc.), we were unable to do so.
